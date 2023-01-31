@@ -1,15 +1,15 @@
+import { Button } from "@mui/material";
 import "./App.css";
 import DemoButton from "./Components/DemoButton";
 
-import NavBar from "./Components/NavBar";
-import New from "./Components/New";
-import New2 from "./Components/New2";
+import First from "./Components/First";
+import Second from "./Components/Second";
 
 function App() {
   return (
     <div className="App">
-      <New />
-      <New2 />
+      <First />
+      <Second />
     </div>
   );
 }
