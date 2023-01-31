@@ -1,9 +1,11 @@
 import React from "react";
 import { Button } from "@mui/material";
-function DemoButton() {
+
+function DemoButton(props) {
+  const text = props.dataText.toLowerCase();
   return (
     <div>
-      <Button variant="contained">Click Here</Button>
+      <Button variant={props.buttonTypes}>{text}</Button>
     </div>
   );
 }
