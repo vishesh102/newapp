@@ -1,15 +1,13 @@
-import { Button } from "@mui/material";
 import "./App.css";
-import DemoButton from "./Components/DemoButton";
 
-import First from "./Components/First";
-import Second from "./Components/Second";
+import Form1 from "./components/Form1";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <First />
-      <Second />
+      <Form1 />
+      <Counter />
     </div>
   );
 }
